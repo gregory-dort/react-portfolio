@@ -24,22 +24,26 @@ const Navbar = ({sectionIds}: NavbarProps) => {
     return (
         <nav className = "fixed w-full z-50 bg-white/50 backdrop-blur-sm shadow-md">
             <div className = "container mx-auto flex justify-between items-center py-4 px-4">
-                <h1 className = "text-3xl font-bold text-black font-serif">Gregory Dort</h1>
+                <img 
+                src = "/GDLogo.png" 
+                alt = "Logo"
+                className = "w-14 h-14 rounded-full shadow-sm"
+                />
                 <div className = "space-x-8">
                     <button onClick={() => scrollToSection(sectionIds.hero)} className="hover:text-cyan-300 transition duration-300">
                         Hero
                     </button>
                     <button onClick={() => scrollToSection(sectionIds.about)} className="hover:text-cyan-300 transition duration-300">
-                        About
+                        About Me
                     </button>
                     <button onClick={() => scrollToSection(sectionIds.experience)} className="hover:text-cyan-300 transition duration-300">
-                        Experience
+                        My Experiences
                     </button>
                     <button onClick={() => scrollToSection(sectionIds.project)} className="hover:text-cyan-300 transition duration-300">
-                        Projects
+                        My Projects
                     </button>
                     <button onClick={() => scrollToSection(sectionIds.contact)} className="hover:text-cyan-300 transition duration-300">
-                        Contact
+                        Contact Me
                     </button>
                 </div>
             </div>

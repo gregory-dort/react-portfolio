@@ -13,7 +13,7 @@ const sectionID: SectionIDs = {
 
 const Home = () => {
     return (
-        <div className = "bg-slate-600 w-full min-h-screen text-gray-800">
+        <div className = "bg-gradient-to-br from-cyan-100 to-slate-600 w-full min-h-screen text-gray-800">
             <Navbar sectionIds = {sectionID} />
 
             <main className = "container mx-auto px-4">

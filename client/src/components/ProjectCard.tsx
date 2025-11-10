@@ -23,11 +23,11 @@ const ProjectCard = ({
             className="border border-gray-200 p-6 rounded-md cursor-pointer relative overflow-hidden bg-white group"
             onClick={onSelect}
         >
-            <div className = "mb-4">
+            <div className = "mb-4 w-full h-56 overflow-hidden">
                 <img
                     src={imageUrl}
                     alt={altText}
-                    className = "w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
+                    className = "w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
             </div>
 

@@ -4,7 +4,7 @@ const Skills = () => {
     const skillsData = {
             'Frontend': ['React', 'TailwindCSS', 'Next.js', 'HTML', 'CSS', 'Framer Motion', 'Daisy UI'],
             'Backend': ['Express.js', 'Node.js', 'Flask', 'FastAPI', 'Gemini API'],
-            'Databases': ['MongoDB', 'PostgreSQL', 'MySQL'],
+            'Databases': ['MongoDB', 'PostgreSQL', 'SQL'],
             'Tools & DevOps': ['Git', 'AWS', 'Lucidchart', 'Figma'],
             'Programming Languages': ['Javascript', 'Typescript', 'Python', 'C#']
     };

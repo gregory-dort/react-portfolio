@@ -5,7 +5,7 @@ const eduData = [
     {
         index: 1,
         school: "Fairfield University (Fairfield, CT)",
-        major: "Software Engineering Master's",
+        major: "Master of Science: Software Engineering",
         minor: null,
         date: "May 2025 - May 2027",
         involvement: null
@@ -13,7 +13,7 @@ const eduData = [
     {
         index: 2,
         school: "Sacred Heart University (Fairfield, CT)",
-        major: "Major: Information Technology",
+        major: "Bachelor of Science: Information Technology",
         minor: "Minor: Computer Science",
         date: "August 2021 - May 2025",
         involvement: "Involvement: Trustee's Scholarship Recipient, Information Technology Work Study, Residential Life, La Hispanidad, Black Student Union, Welch Mentor Program, MACC Pioneers Mentor, Welch Corporate Structure Technology Team, SHU Innovate, Theatre Arts Program"

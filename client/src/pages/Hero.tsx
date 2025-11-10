@@ -30,7 +30,7 @@ const Hero = () => {
                     variants={itemVariants}
                     src="/GregWC.jpg"
                     alt="Profile Picture"
-                    className="w-150 h-120 rounded-full mx-auto mb-4"
+                    className="w-140 h-120 rounded-full mx-auto mb-4 border-2 border-gray-200 shadow-xl"
                 />
                 <motion.h1
                     variants={itemVariants} 
@@ -46,9 +46,9 @@ const Hero = () => {
                 </motion.h2>
                 <motion.p 
                     variants={itemVariants} 
-                    className="text-gray-600 text-center mb-8 text-lg"
+                    className="text-gray-800 text-center mb-8 text-3xl text-bold"
                 >
-                    Passionate about creating innovative and user-friendly software solutions.
+                   Connect with me here!
                 </motion.p>
             </motion.div>
         </section>
