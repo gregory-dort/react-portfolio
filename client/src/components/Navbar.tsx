@@ -27,8 +27,8 @@ const Navbar = ({sectionIds}: NavbarProps) => {
         <nav className = "fixed w-full z-50 bg-white/50 backdrop-blur-sm shadow-md">
             <div className = "container mx-auto flex justify-between items-center py-4 px-4">
                 <a
-                href = "#hero"
-                className = "flex items-center hover:scale-115 transition duration-300 space-x-2"
+                href = "localhost:5173"
+                className = "flex items-center space-x-2"
                 >
                     <img 
                         src = "/GDLogo.png" 
