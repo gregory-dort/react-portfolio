@@ -12,7 +12,7 @@ const Projects = [
         techStack: ['React', 'Express', 'NodeJS', 'MongoDB', 'TailwindCSS', 'Javascript', 'Gemini']
     },
     {
-        title: 'Prep Time Scheduler',
+        title: 'Forkast',
         description: '',
         imageUrl: '/Pasta.jpg',
         altText: 'Prep Time Logo',
@@ -32,9 +32,9 @@ const Projects = [
     {
         title: 'Confluence Streaming',
         description: '',
-        imageUrl: '/Money.jpg',
+        imageUrl: '/CSLogo.png',
         altText: 'Confluence Streaming Logo',
-        projectUrl: '(Not Currently Live)',
+        projectUrl: 'https://confluence-streaming-108b2e0ec103.herokuapp.com/',
         repoUrl: 'https://github.com/jpgeib/confluence-streaming',
         techStack: ['React', 'Javascript']
     }

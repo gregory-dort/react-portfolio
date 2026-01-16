@@ -1,11 +1,10 @@
 import { Navbar, Footer } from '../components';
 import type { SectionIDs } from '../components/Navbar';
-import { About, Contact, Experience, Project } from './index';
+import { Contact, Experience, Project } from './index';
 import Hero from './Hero';
 
 const sectionID: SectionIDs = {
     hero: 'hero',
-    about: 'about',
     experience: 'experience',
     contact: 'contact',
     project: 'project'
@@ -19,9 +18,6 @@ const Home = () => {
             <main className = "container mx-auto px-4">
                 <section id = {sectionID.hero} className = "py-24">
                     <Hero />
-                </section>
-                <section id = {sectionID.about} className = "py-24">
-                    <About />
                 </section>
                 <section id = {sectionID.experience} className = "py-24">
                     <Experience />

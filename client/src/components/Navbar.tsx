@@ -47,13 +47,6 @@ const Navbar = ({sectionIds}: NavbarProps) => {
                         Hero
                     </motion.button>
                     <motion.button
-                        onClick={() => scrollToSection(sectionIds.about)} 
-                        className="hover:text-cyan-100 transition duration-300"
-                        whileHover={{ scale: 1.1 }}
-                    >
-                        About Me
-                    </motion.button>
-                    <motion.button
                         onClick={() => scrollToSection(sectionIds.experience)} 
                         className="hover:text-cyan-100 transition duration-300"
                         whileHover={{ scale: 1.1 }}

@@ -20,7 +20,7 @@ const itemVariants = {
 
 const Hero = () => {
     return (
-        <section id = 'hero' className = "h-screen flex flex-col items-center justify-center bg-gray-50 border-b border-gray-200">
+        <section id = 'hero' className = "h-screen flex flex-col items-center justify-center bg-transparent">
             <motion.div
                 variants={containerVariants}
                 initial="hidden"
