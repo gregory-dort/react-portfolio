@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { getTechIcon } from './TechIcons';
 
 type ProjectCardProps = {
@@ -10,7 +10,6 @@ type ProjectCardProps = {
     projectUrl: string;
     repoUrl: string;
     techStack: string[];
-    onSelect: () => void;
 };
 
 const ProjectCard = ({
@@ -41,6 +40,18 @@ const ProjectCard = ({
             <p className="text-gray-600 mb-4 text-sm line-clamp-4">Project Description: {description}</p>
             
             <div className="flex gap-4 mb-4">
+                {/* GitHub Repo Link */}
+                <a
+                    href={repoUrl}
+                    target="_blank"
+                    aria-label="View Github Repository"
+                    title="View Github Repository"
+                    className="text-gray-600 hover:text-cyan-300 transition duration-500"
+                    onClick={(e) => e.stopPropagation()}
+                >
+                    <FaGithub size={24} />
+                </a>
+                
                 {/* Live Demo Link - Only show if valid URL exists */}
                 {hasLiveDemo && (
                     <a

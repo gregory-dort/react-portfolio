@@ -31,7 +31,7 @@ const Hero = () => {
                     variants={itemVariants}
                     src="/GregWC.jpg"
                     alt="Profile Picture"
-                    className="w-120 h-100 rounded-full mx-auto mb-4 border-2 border-gray-200 shadow-xl"
+                    className="w-56 h-56 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full mx-auto mb-4 border-2 border-gray-200 shadow-xl"
                 />
                 <motion.h1
                     variants={itemVariants} 
