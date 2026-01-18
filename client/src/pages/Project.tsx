@@ -41,9 +41,6 @@ const Projects = [
 ]
 
 const Project = () => {
-    const handleProjectSelect = (title: string) => {
-        console.log(`Selected project: ${title}`);
-    };
 
     return (
         <div id="project" className="min-h-[100vh]">
