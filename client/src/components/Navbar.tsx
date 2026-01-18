@@ -39,13 +39,6 @@ const Navbar = ({sectionIds}: NavbarProps) => {
                     className="space-x-8 text-gray-600 font-medium font-serif"
                 >
                     <motion.button
-                        onClick={() => scrollToSection(sectionIds.hero)} 
-                        className="hover:text-cyan-100 transition duration-300"
-                        whileHover={{ scale: 1.1 }}
-                    >
-                        Hero
-                    </motion.button>
-                    <motion.button
                         onClick={() => scrollToSection(sectionIds.experience)} 
                         className="hover:text-cyan-100 transition duration-300"
                         whileHover={{ scale: 1.1 }}

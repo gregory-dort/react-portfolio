@@ -26,9 +26,20 @@ const Experience = () => {
                             <WorkTimeline />
                         </div>
                     </div>
-
-                    <Skills />
                 </SectionCard>
+
+                {/* Skills Section */}
+                <motion.div className="p-4 mt-20">
+                    <motion.h1 
+                        className="text-6xl font-serif mb-20 text-center"
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8 }}
+                    >
+                        Skills & Tools 💻
+                    </motion.h1>
+                    <Skills />
+                </motion.div>
             </section>
     );
 }

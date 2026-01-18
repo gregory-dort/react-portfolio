@@ -14,7 +14,7 @@ type ProjectCardProps = {
 };
 
 const ProjectCard = ({
-    title, description, imageUrl, altText, projectUrl, repoUrl, techStack, onSelect
+    title, description, imageUrl, altText, projectUrl, repoUrl, techStack
 }: ProjectCardProps) => {
 
     const hasLiveDemo = projectUrl && !projectUrl.includes('Not Currently Live');
@@ -24,7 +24,7 @@ const ProjectCard = ({
             whileHover={{ scale: 1.05, boxShadow: "0 10px 20px rgba(0,0,0,0.1)" }}
             transition={{ type: "spring", stiffness: 300 }}
             className="border border-gray-200 p-6 rounded-md cursor-pointer relative overflow-hidden bg-white group"
-            onClick={onSelect}
+            onClick={() => window.open(repoUrl, '_blank')}
         >
             <div className = "mb-4 w-full h-56 overflow-hidden">
                 <img
@@ -41,18 +41,6 @@ const ProjectCard = ({
             <p className="text-gray-600 mb-4 text-sm line-clamp-4">Project Description: {description}</p>
             
             <div className="flex gap-4 mb-4">
-                {/* GitHub Repo Link */}
-                <a
-                    href={repoUrl}
-                    target="_blank"
-                    aria-label="View GitHub Repository"
-                    title="View Github Repository"
-                    className="text-gray-600 hover:text-cyan-300 transition duration-500"
-                    onClick={(e) => e.stopPropagation()}
-                >
-                    <FaGithub size={24} />
-                </a>
-
                 {/* Live Demo Link - Only show if valid URL exists */}
                 {hasLiveDemo && (
                     <a
