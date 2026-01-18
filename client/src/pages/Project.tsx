@@ -72,7 +72,6 @@ const Project = () => {
                             projectUrl={project.projectUrl}
                             repoUrl={project.repoUrl}
                             techStack={project.techStack}
-                            onSelect={() => handleProjectSelect(project.title)}
                         />
                     </motion.div>
                 ))}
